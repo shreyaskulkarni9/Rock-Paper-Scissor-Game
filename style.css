@@ -1,0 +1,97 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("https://wallpapercave.com/wp/wp3264682.jpg");
+    align-items: center;
+}
+h1
+{
+    background-color: black;
+    color: white;
+    height:4rem;
+    text-align: center;
+    font-size: 3rem;
+}
+.choice
+{
+    height:165px;
+    width:175px;
+    gap:200px;
+    border-radius: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+}
+img
+{
+    height: 150px;
+    width : 160px;
+    border-radius: 100%;
+    align-items: center;
+}
+.choices
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    margin: 5rem;
+}
+.choice:hover{
+    background-color: black;
+    cursor:pointer;
+    opacity: 0.6    ;
+}
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin: 1rem auto;
+    gap: 2rem;
+    background-color: rgb(45, 45, 45);
+    padding: 20px 40px;          
+    border-radius: 30px;                       
+    box-sizing: border-box;
+    width: 350px; 
+    max-width: 90%; 
+    color:white;    
+}
+
+#user,#comp
+{
+    font-size: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+.user, .computer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#msg
+{
+    text-align: center ;
+    background-color: #302f2f;
+    height: 3rem;
+    font-size: 2rem;
+    width: 350px;
+    padding: 10px 30px;          
+    border-radius: 30px;
+    color: white;                       
+}
+.Message
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:50px;
+}
+.Message:hover{
+    transform: scale(1.05);
+    cursor:pointer;
+}

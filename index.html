@@ -1,0 +1,39 @@
+<!-- id i used when things are updated to access in js-->
+ <!-- class is used to update entire class-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome To Rock Paper Scissor Game</h1>
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="https://thumbs.dreamstime.com/b/grey-black-rock-white-outlines-jagged-edges-vector-illustration-design-using-ai-tool-stone-clipart-363351021.jpg">
+        </div>
+        <div class="choice" id="scissor">
+            <img src="https://static.vecteezy.com/system/resources/previews/009/250/676/non_2x/scissor-isolated-on-white-background-illustration-vector.jpg">
+        </div>
+        <div class="choice" id="paper">
+            <img src="https://img.freepik.com/premium-vector/letter-paper-isolated-white-background-vector-hand-drawn-illustration-doodle-style_515275-997.jpg">
+        </div>
+    </div>
+    <div class="score-board">
+        <div class="user">
+            <p id="user">0</p>
+            <p>Your</p>
+        </div>
+        <div class="computer">
+            <p id="comp">0</p>
+            <p>Comp</p>
+        </div> 
+    </div>
+    <div class="Message">
+        <p id="msg">Play Your Move</p>
+    </div>
+</body>
+<script src="game.js"></script>
+</html>
